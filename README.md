@@ -162,5 +162,5 @@ EOF
 docker build -t my_mongodb .
 
 # running A MongoDB Instance
-docker run -name my_first_mdb_instance -i -t my_mongodb
+docker run -it my_mongodb
 ```
